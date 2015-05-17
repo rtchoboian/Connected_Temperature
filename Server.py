@@ -47,7 +47,7 @@ def refreshTemperature():
 def refreshForecast():
         if continu:
                 forecast.refresh()
-                Timer(ForecastDay.REFRESH_DELAI() ,refreshForecast, ()).start()
+                Timer(Forecast.REFRESH_DELAI() ,refreshForecast, ()).start()
 
 #This class will handles any incoming request from
 #the browser 
