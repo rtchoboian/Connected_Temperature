@@ -112,7 +112,8 @@ class Forecast:
             tomorrow = ForecastDay(time.time(), day2['temp']['min'], day2['temp']['max'], day2['speed'], day2['weather'][0]['icon'], day2['weather'][0]['icon'])
             self.tomorrow = tomorrow
         except Exception as e:
-            print "Exception refreshForecastDays : " + str(e)
+            self.today = None
+            self.tomorrow = None
 
 
 if __name__ == '__main__':
