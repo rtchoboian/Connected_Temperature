@@ -1,5 +1,10 @@
 # Connected_Temperature
 
+CONNECT THE SENSOR:
+
+connect the data wired of your sensor to the GPIO4 of your raspberry
+if you have a problem https://learn.adafruit.com/downloads/pdf/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging.pdf
+
 INSTALL THE SERVER:
 
 git clone https://github.com/raffi3438/Connected_Temperature.git
