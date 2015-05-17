@@ -13,8 +13,9 @@ sudo python setup.py install
 cd ../
 
 RUN THE SERVER
-sudo python Server.py
-if you want run the server from an other repertory that Connected_Temperature (cd the_path_of_Connected_Temperature && sudo python Server.py)
+sudo python ./Server.py
+if you want run the server from an other repertory that Connected_Temperature (cd the_path_of_Connected_Temperature && sudo python ./Server.py)
+i.e (cd /home/pi/Connected_Temperature && sudo python ./Server.py)
 
 ENJOY
 go on your favorite browser and write the url ip_of_your_raspberry:8080
