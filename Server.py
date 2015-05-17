@@ -28,9 +28,9 @@ def readPageHmtl():
                 myFile = mon_fichier = open("./page.html", "r")
                 page = myFile.read()
                 myFile.close()
-                page = "Error : if you want run the server from an other repertory that Connected_Temperature write (cd the_path_of_Connected_Temperature && sudo python ./Server.py) i.e (cd /home/pi/Connected_Temperature && sudo python ./Server.py)"
         except Exception as e:
                 print "Error : if you want run the server from an other repertory that Connected_Temperature write (cd the_path_of_Connected_Temperature && sudo python ./Server.py) i.e (cd /home/pi/Connected_Temperature && sudo python ./Server.py)"      
+                page = "Error : if you want run the server from an other repertory that Connected_Temperature write (cd the_path_of_Connected_Temperature && sudo python ./Server.py) i.e (cd /home/pi/Connected_Temperature && sudo python ./Server.py)"
         return page
 
 def refreshTemperature():
