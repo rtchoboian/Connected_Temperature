@@ -1,11 +1,12 @@
 # Connected_Temperature
 
-INSTALL THE SERVER
+INSTALL THE SERVER:
 
 git clone https://github.com/raffi3438/Connected_Temperature.git
 cd Connected_Temperature
 
-INSTALL THE LIBRARY FOR THE SENSOR
+
+INSTALL THE LIBRARY FOR THE SENSOR:
 
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git
 cd Adafruit_Python_DHT
@@ -14,12 +15,14 @@ sudo apt-get install build-essential python-dev
 sudo python setup.py install
 cd ../
 
-RUN THE SERVER
+
+RUN THE SERVER:
 
 sudo python ./Server.py
 if you want run the server from an other repertory that Connected_Temperature (cd the_path_of_Connected_Temperature && sudo python ./Server.py)
 i.e (cd /home/pi/Connected_Temperature && sudo python ./Server.py)
 
-ENJOY
+
+ENJOY:
 
 go on your favorite browser and write the url ip_of_your_raspberry:8080
