@@ -13,6 +13,7 @@ git clone https://github.com/raffi3438/Connected_Temperature.git
 cd Connected_Temperature
 
 
+
 INSTALL THE LIBRARY FOR THE SENSOR:
 
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git
